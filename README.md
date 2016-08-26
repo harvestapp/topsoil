@@ -1,2 +1,2 @@
-# topsoil-root
-Base kickstarter for Harvest's Angular UI
+# topsoil
+AngularJS UI for Harvest
