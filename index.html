@@ -1,0 +1,30 @@
+<!doctype html>
+<html ng-app="topsoilRootApp">
+	<head>
+
+		<title>Welcome to Topsoil-root</title>
+
+		<!-- load bower resources -->
+		<script src="bower_components/angular/angular.js"></script>
+		<script src="bower_components/angular-route/angular-route.js"></script>
+		<script src="bower_components/jquery/jquery.js"></script>
+		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+		<link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css" />
+
+		<!-- load angular resources -->
+		<script src="app/app.module.js"></script>
+		<script src="app/app.config.js"></script>
+		<script src="app/hello-world/hello-world.module.js"></script>
+		<script src="app/hello-world/hello-world.component.js"></script>
+		<script src="app/info/info.module.js"></script>
+		<script src="app/info/info.component.js"></script>
+		<script src="app/route-test/route-test.module.js"></script>
+		<script src="app/route-test/route-test.component.js"></script>
+
+	</head>
+	<body>
+
+		<div ng-view></div>
+
+	</body>
+</html>
