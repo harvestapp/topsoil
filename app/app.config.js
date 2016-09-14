@@ -14,6 +14,9 @@ angular.
           when('/info', {
             template: '<info></info>'
           }).
+          when('/splash', {
+            template: '<topnav></topnav>'
+          }).
           otherwise('/');
       }
     ]);
