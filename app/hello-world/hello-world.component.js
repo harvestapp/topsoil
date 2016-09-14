@@ -3,6 +3,6 @@ angular.
     component('helloWorld', {
       templateUrl: 'app/hello-world/hello-world.template.html',
       controller: function HelloWorldController() {
-        this.hello = 'Topsoil-root is running.';
+        this.hello = 'Topsoil is running.';
       }
     });
