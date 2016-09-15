@@ -1,7 +1,6 @@
 angular.module('topsoilRootApp', [
   'helloWorld',
-  'info',
+  'messages',
   'ngRoute',
-  'routeTest',
   'topnav'
 ]);

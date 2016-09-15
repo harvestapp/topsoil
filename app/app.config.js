@@ -8,14 +8,8 @@ angular.
           when('/', {
             template: '<hello-world></hello-world>'
           }).
-          when('/routeTest', {
-            template: '<route-test></route-test>'
-          }).
-          when('/info', {
-            template: '<info></info>'
-          }).
-          when('/splash', {
-            template: '<topnav></topnav>'
+          when('/messages', {
+            template: '<messages></messages>'
           }).
           otherwise('/');
       }

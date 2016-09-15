@@ -8,6 +8,7 @@
 		<script src="bower_components/angular/angular.js"></script>
 		<script src="bower_components/angular-route/angular-route.js"></script>
 		<script src="bower_components/jquery/dist/jquery.js"></script>
+		<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 		<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.min.css">
 
@@ -16,17 +17,18 @@
 		<script src="app/app.config.js"></script>
 		<script src="app/hello-world/hello-world.module.js"></script>
 		<script src="app/hello-world/hello-world.component.js"></script>
-		<script src="app/info/info.module.js"></script>
-		<script src="app/info/info.component.js"></script>
-		<script src="app/route-test/route-test.module.js"></script>
-		<script src="app/route-test/route-test.component.js"></script>
 		<script src="app/topnav/topnav.module.js"></script>
 		<script src="app/topnav/topnav.component.js"></script>
+		<script src="app/messages/messages.module.js"></script>
+		<script src="app/messages/messages.component.js"></script>
 
 	</head>
 	<body>
+		<div class="container-fluid">
+			<topnav></topnav>
 
-		<div ng-view></div>
+			<div ng-view style="height: 100%;"></div>
 
+		</div>
 	</body>
 </html>
