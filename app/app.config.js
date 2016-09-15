@@ -8,6 +8,9 @@ angular.
           when('/', {
             template: '<hello-world></hello-world>'
           }).
+          when('/businessTools', {
+            template: '<business-tools></business-tools>'
+          }).
           when('/messages', {
             template: '<messages></messages>'
           }).
